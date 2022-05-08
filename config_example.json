@@ -1,0 +1,24 @@
+{
+    "deviceDataFilePath"     : "/var/tasmoAdminDev.json",
+    "maxThreads"             : 64,
+    "maxRetriesTasmotaOTAUrl": 3,
+    "connectTimeoutOTAUrl"   : 8,
+    "readTimeoutOTAUrl"      : 20,
+    "maxRetriesDev"          : 5,
+    "connectTimeoutDev"      : 8,
+    "readTimeoutDev"         : 16,
+    "autoUpdateMQTT"         : true,
+    "autoUpdateFW"           : true,
+    "MQTTHost"               : "192.168.1.1",
+    "MQTTPort"               : "1083",
+    "tasmotaNetwork"         : "192.168.1.1/255.255.248.0",
+    "excludeIpArr"           : [
+            "192.168.1.1", "192.168.1.29", "192.168.1.10", "192.168.1.2",
+            "192.168.1.125", "192.168.1.240", "192.168.1.156"
+        ],
+    "tasmotaUrlSSL"          : false,
+    "firmwareTranslationDict": {
+            "defaultFirmwareName": ["myCustomFimrwareName1", "myCustomFirmwareName2"],
+            "secondExample"      : ["mySecondExampleFirmwareName"]
+        }
+}
